@@ -15,7 +15,7 @@ for key, value in sorted(counts.items()):
     print((key, value, prob))
 
     new_key = key / 5.0
-    rand7_counts[new_key] = rand7_counts.get(new_key, 0) + 1
+    rand7_counts[new_key] = rand7_counts.get(new_key, 0) + value
 
 print('-------------------------')
 print('-------------------------')
@@ -29,7 +29,7 @@ for key, value in sorted(counts.items()):
 counts = {}
 for key, value in rand7_counts.items():
     key = round(key)
-    counts[key] = counts.get(key, 0) + 1
+    counts[key] = counts.get(key, 0) + value
 
 print('-------------------------')
 print('-------------------------')
