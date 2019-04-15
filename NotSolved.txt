@@ -4,4 +4,3 @@
 2019_04_02__reconstruct_binary_tree.py
 2019_04_10__k_non_ajacent_colors.py
 2019_04_13__low_bandwidth_file_syncing.py
-2019_04_14__same_sum_subsets.py
