@@ -1,4 +1,9 @@
-2019-03-17-PossibleArbitrage.py
-2019-03-25-SingleOccurrence.py
-2019-03-30-Rand7.py
-2019-04-02-ReconstructBinaryTree.py
+2019_03_17__possible_arbitrage.py
+2019_03_25__single_occurrence.py
+2019_03_30__rand7.py
+2019_04_02__reconstruct_binary_tree.py
+2019_04_10__k_non_ajacent_colors.py
+2019_04_11__line_breaks.py
+2019_04_12__rotated_array_search.py
+2019_04_13__low_bandwidth_file_syncing.py
+2019_04_14__same_sum_subsets.py
