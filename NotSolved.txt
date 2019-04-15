@@ -2,5 +2,4 @@
 2019_03_25__single_occurrence.py
 2019_03_30__rand7.py
 2019_04_02__reconstruct_binary_tree.py
-2019_04_10__k_non_ajacent_colors.py
 2019_04_13__low_bandwidth_file_syncing.py
