@@ -3,7 +3,4 @@
 2019_03_30__rand7.py
 2019_04_02__reconstruct_binary_tree.py
 2019_04_13__low_bandwidth_file_syncing.py
-2019_04_18__num_knights_tours.py
-2019_04_19__clockwise_spiral_matrix.py
-2019_04_20__unbiased_coin_toss.py
 2019_04_21__lru_cache.py
