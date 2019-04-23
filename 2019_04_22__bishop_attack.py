@@ -26,3 +26,32 @@ The board would look like this:
 You should return 2, since bishops 1 and 3 attack each other, as well as
 bishops 3 and 4.
 '''
+
+def get_attacking_bishops(M, bishop_list):
+    left_to_right_diagonals = [0 for _ in range(M * 2 - 1)]
+    right_to_left_diagonals = [0 for _ in range(M * 2 - 1)]
+    count = 0
+    for row, col in bishop_list:
+        left_to_right_idx = M - 1 - row + col
+        right_to_left_idx = 2 * (M - 1) - row - col
+        left_to_right_diagonals[left_to_right_idx] += 1
+        right_to_left_diagonals[right_to_left_idx] += 1
+
+    for this_count in left_to_right_diagonals:
+        if this_count:
+            count += this_count - 1
+
+    for this_count in right_to_left_diagonals:
+        if this_count:
+            count += this_count - 1
+
+    return count
+
+if __name__ == '__main__':
+    M = 5
+    bishop_list = [(0, 0), (1, 2), (2, 2), (4, 0)]
+    print('M: {}'.format(M))
+    print('bishops: {}'.format(bishop_list))
+    print('attacking bishops: {}'.format(
+        get_attacking_bishops(M, bishop_list))
+    )
