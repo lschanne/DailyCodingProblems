@@ -19,3 +19,19 @@ multiplication table looks like this:
 
 And there are 4 12's in the table.
 '''
+
+def count_X_in_multiplication_table(N=1, X=0):
+    count = 0
+    for n in range(1, X + 1):
+        if n > N:
+            break
+        if X % n == 0 and X // n <= N:
+            count += 1
+
+    return count
+
+if __name__ == '__main__':
+    import sys
+    N, X = map(int, sys.argv[1:])
+    print('N: {}; X: {}'.format(N, X))
+    print('count: {}'.format(count_X_in_multiplication_table(N, X)))
