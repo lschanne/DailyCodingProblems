@@ -7,4 +7,3 @@
 2019_05_02__sorted_list_merge.py
 2019_05_03__non_decreasing_array.py
 2019_05_04__deepest_node.py
-2019_05_05__digits_to_letters.py
