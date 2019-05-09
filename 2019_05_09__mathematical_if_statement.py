@@ -7,7 +7,9 @@ using only mathematical or bit operations. You can assume b can only be 1 or 0.
 
 # The wording is ambiguous here. Can we use mathematical operations and also
 # use bit operations, or can we only use the bitwise OR operator? I don't
-# actually think it's possible using ONLY the bitwise OR operator
+# actually think it's possible using ONLY the bitwise OR operator. Yes, we
+# could use OR operators instead of AND operators in the second implementation,
+# but you still need the negation and the NOT operator
 
 # Here's a simple math operation implementation:
 def x_if_b_else_y_USING_MATHEMTICAL_OPERATIONS(x, y, b):
