@@ -7,4 +7,3 @@
 2019_05_10__min_edit_for_valid_parentheses.py
 2019_05_11__is_valid_cardinal_rules.py
 2019_05_12__division_by_subtraction.py
-2019_05_13__is_valid_binary_search_tree.py
