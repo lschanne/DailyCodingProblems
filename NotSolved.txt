@@ -4,5 +4,4 @@
 2019_04_13__low_bandwidth_file_syncing.py
 2019_04_21__lru_cache.py
 2019_04_26__largest_directed_graph_path.py
-2019_05_10__min_edit_for_valid_parentheses.py
 2019_05_11__is_valid_cardinal_rules.py
