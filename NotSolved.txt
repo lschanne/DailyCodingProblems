@@ -5,4 +5,3 @@
 2019_04_21__lru_cache.py
 2019_04_26__largest_directed_graph_path.py
 2019_05_16__courses_in_order.py
-2019_05_19__next_highest_permutation_of_digits.py
