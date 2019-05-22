@@ -7,4 +7,3 @@
 2019_05_16__courses_in_order.py
 2019_05_19__next_highest_permutation_of_digits.py
 2019_05_20__all_permutations.py
-2019_05_21__map_with_time.py
