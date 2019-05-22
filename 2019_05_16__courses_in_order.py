@@ -51,4 +51,4 @@ if __name__ == '__main__':
                 all_passed = False
 
     if all_passed:
-        print('All tests passed!')
+        print('All {} tests passed!'.format(len(test_cases)))

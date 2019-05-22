@@ -5,7 +5,6 @@
 2019_04_21__lru_cache.py
 2019_04_26__largest_directed_graph_path.py
 2019_05_16__courses_in_order.py
-2019_05_18__max_path_sum_of_bst.py
 2019_05_19__next_highest_permutation_of_digits.py
 2019_05_20__all_permutations.py
 2019_05_21__map_with_time.py
