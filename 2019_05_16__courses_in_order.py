@@ -15,6 +15,17 @@ should return ['CSC100', 'CSC200', 'CSCS300'].
 def courses_in_order(course_hashmap):
     ordered_courses = []
 
+    # we'll be modifying the input here, so if that's not something you want
+    # some changes to this function are required
+    while course_hashmap:
+        for course, prerequisites in course_hashmap.items():
+            if all(x in ordered_courses for x in prerequisites):
+                ordered_courses.append(course)
+                del course_hashmap[course]
+                break
+        else:
+            return None
+
     return ordered_courses
 
 if __name__ == '__main__':
