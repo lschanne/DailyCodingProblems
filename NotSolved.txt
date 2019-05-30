@@ -5,4 +5,3 @@
 2019_04_21__lru_cache.py
 2019_04_26__largest_directed_graph_path.py
 2019_05_23__get_longest_number_of_consecutive_elements.py
-2019_05_28__is_palindromic_list.py
