@@ -11,3 +11,7 @@
 2019_06_09__generate_arbitrarily_large_binary_tree.py
 2019_06_08__is_subtree.py
 2019_06_07__reverse_string_by_delimiters.py
+2019_06_13__singleton_pattern_with_a_twist.py
+2019_06_14__k_deletions_to_palindrome.py
+2019_06_15__get_max_coins.py
+2019_06_16__string_is_number.py
