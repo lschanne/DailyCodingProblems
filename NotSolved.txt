@@ -5,7 +5,6 @@
 2019_04_21__lru_cache.py
 2019_04_26__largest_directed_graph_path.py
 2019_05_23__get_longest_number_of_consecutive_elements.py
-2019_06_12__cover_closed_intervals.py
 2019_06_11__sorted_squares.py
 2019_06_10__get_level_with_min_sum.py
 2019_06_09__generate_arbitrarily_large_binary_tree.py
