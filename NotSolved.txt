@@ -12,4 +12,3 @@
 2019_06_08__is_subtree.py
 2019_06_07__reverse_string_by_delimiters.py
 2019_06_13__singleton_pattern_with_a_twist.py
-2019_06_16__string_is_number.py

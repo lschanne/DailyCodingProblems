@@ -15,3 +15,18 @@ And here are examples of non-numbers:
 * "a -2"
 * "-"
 '''
+
+import re
+
+NUMBER_REGEX = re.compile(
+    r'^(-?\d+(\.\d+)?)|(\de\d+)$'
+)
+def string_is_number(string):
+    return bool(re.match(NUMBER_REGEX, string))
+
+if __name__ == '__main__':
+    import sys
+    for string in sys.argv[1:]:
+        print('string: "{}"'.format(string))
+        print('is number: {}'.format(string_is_number(string)))
+        print('--------------------------')
